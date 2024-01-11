@@ -75,3 +75,40 @@ footer a {
 .spacer {
   height: 3vw;
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(32, 59, 68);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    display: block;
+    margin-bottom: 10px;
+  }
+  header h2 {
+    text-align: center;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  body {
+    background-color: rgb(169, 121, 121);
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
